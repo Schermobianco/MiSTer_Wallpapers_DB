@@ -17,15 +17,15 @@ A collection of **MiSTer FPGA** wallpapers images
 - **[1280x1024 CRT fx](/wallpapers/1280x1024_CRTfx_WS/)** (AR 5:4)
 
 
-## How your users will integrate your Custom Database in their MiSTers:
-your users will have to add these lines to the bottom of `downloader.ini`:
+## Install:
+Add the following to your `downloader.ini` file to install everything at once through the `update` script:
 
 ```ini
 [Schermobianco/MiSTer_Wallpapers_DB]
 db_url = https://raw.githubusercontent.com/Schermobianco/MiSTer_Wallpapers_DB/db/db.json.zip
 ```
 
-This needs to be done just once by your users. After that, whenever they run *downloader* or *update_all* they'll also be installing your updated files.
+After that you have to copy manually the imagwes files that you want to use from the foldere `/wallpapers/foldername_WS` to `/wallpapers/`
 
 ## License
 ``MiSTer_Wallpapers`` is distributed under the MIT License - see the [LICENSE](LICENSE) file for details.
