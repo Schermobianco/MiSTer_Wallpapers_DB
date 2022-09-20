@@ -25,7 +25,7 @@ Add the following to your `downloader.ini` file to install everything at once th
 db_url = https://raw.githubusercontent.com/Schermobianco/MiSTer_Wallpapers_DB/db/db.json.zip
 ```
 
-After that you have to copy manually the imagwes files that you want to use from the foldere `/wallpapers/foldername_WS` to `/wallpapers/`
+After that you have to copy manually the images files that you want to use from the folder `/wallpapers/foldername_WS` to `/wallpapers/`
 
 ## License
 ``MiSTer_Wallpapers`` is distributed under the MIT License - see the [LICENSE](LICENSE) file for details.
